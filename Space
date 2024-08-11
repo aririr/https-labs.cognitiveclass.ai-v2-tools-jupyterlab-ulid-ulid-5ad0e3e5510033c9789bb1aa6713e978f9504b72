@@ -1,0 +1,11 @@
+import shutil
+
+# Renaming back to PPTX to ensure file is intact and not corrupted
+ppt_path = '/mnt/data/ds-capstone-template-coursera.pptx'
+pdf_path = '/mnt/data/ds-capstone-final-presentation.pdf'
+
+# Move the file back to original as a PPTX, to provide a downloadable file
+shutil.move(pdf_path, ppt_path)
+
+ppt_path
+
